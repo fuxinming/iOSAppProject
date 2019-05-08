@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "FRDModuleManager.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    NSString* plistPath = [[NSBundle mainBundle] pathForResource:@"ModulesRegister" ofType:@"plist"];
+    
+    FRDModuleManager *manager = [FRDModuleManager sharedInstance];
+    [manager loadModulesWithPlistFile:plistPath];
+    
+    [manager application:application didFinishLaunchingWithOptions:launchOptions];
     return YES;
 }
 

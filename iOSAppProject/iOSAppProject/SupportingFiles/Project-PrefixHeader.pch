@@ -1,0 +1,18 @@
+//
+//  Project-PrefixHeader.pch
+//  iOSAppProject
+//
+//  Created by FuXinMing on 2019/5/8.
+//  Copyright © 2019 FuXinMing. All rights reserved.
+//
+
+#ifndef Project_PrefixHeader_pch
+#define Project_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <FMBaseClass/FMBaseClass.h>
+#endif /* Project_PrefixHeader_pch */

@@ -13,6 +13,12 @@
 		042B960022658501005DDE7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042B95FF22658501005DDE7D /* Assets.xcassets */; };
 		042B960322658501005DDE7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042B960122658501005DDE7D /* LaunchScreen.storyboard */; };
 		042B960622658501005DDE7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B960522658501005DDE7D /* main.m */; };
+		04DF08A52282DBA400246F85 /* FRDModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF08A32282DBA400246F85 /* FRDModuleManager.m */; };
+		04DF08A62282DBA400246F85 /* ModulesRegister.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04DF08A42282DBA400246F85 /* ModulesRegister.plist */; };
+		04DF08B52282FF3E00246F85 /* FMBaseClass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DF08B42282FF3E00246F85 /* FMBaseClass.framework */; };
+		04DF08BA228301D000246F85 /* ThanosAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF08B9228301D000246F85 /* ThanosAppDelegate.m */; };
+		04DF08BD2283052F00246F85 /* VendorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF08BC2283052F00246F85 /* VendorAppDelegate.m */; };
+		04DF08C4228308BC00246F85 /* RootViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF08C3228308BC00246F85 /* RootViewAppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,17 @@
 		042B960222658501005DDE7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		042B960422658501005DDE7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		042B960522658501005DDE7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04DF08A22282DBA400246F85 /* FRDModuleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRDModuleManager.h; sourceTree = "<group>"; };
+		04DF08A32282DBA400246F85 /* FRDModuleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRDModuleManager.m; sourceTree = "<group>"; };
+		04DF08A42282DBA400246F85 /* ModulesRegister.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ModulesRegister.plist; sourceTree = "<group>"; };
+		04DF08A82282DD1300246F85 /* Project-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Project-PrefixHeader.pch"; sourceTree = "<group>"; };
+		04DF08B42282FF3E00246F85 /* FMBaseClass.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FMBaseClass.framework; sourceTree = "<group>"; };
+		04DF08B8228301D000246F85 /* ThanosAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThanosAppDelegate.h; sourceTree = "<group>"; };
+		04DF08B9228301D000246F85 /* ThanosAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThanosAppDelegate.m; sourceTree = "<group>"; };
+		04DF08BB2283052F00246F85 /* VendorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VendorAppDelegate.h; sourceTree = "<group>"; };
+		04DF08BC2283052F00246F85 /* VendorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VendorAppDelegate.m; sourceTree = "<group>"; };
+		04DF08C2228308BC00246F85 /* RootViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewAppDelegate.h; sourceTree = "<group>"; };
+		04DF08C3228308BC00246F85 /* RootViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewAppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04DF08B52282FF3E00246F85 /* FMBaseClass.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +60,9 @@
 		042B95EA226584FE005DDE7D = {
 			isa = PBXGroup;
 			children = (
+				04DF089D2282DA5700246F85 /* Vendor */,
+				04DF089C2282DA5300246F85 /* Thanos */,
+				04DF089B2282DA2F00246F85 /* Resource */,
 				042B95F5226584FE005DDE7D /* iOSAppProject */,
 				042B95F4226584FE005DDE7D /* Products */,
 			);
@@ -58,17 +79,121 @@
 		042B95F5226584FE005DDE7D /* iOSAppProject */ = {
 			isa = PBXGroup;
 			children = (
+				04DF08C12283063C00246F85 /* Config */,
+				04DF08C02283062000246F85 /* Tools */,
+				04DF08BF2283060E00246F85 /* Module */,
+				04DF08BE228305F100246F85 /* UIViewController */,
+				04DF08B62283013100246F85 /* View */,
 				042B95F6226584FE005DDE7D /* AppDelegate.h */,
 				042B95F7226584FE005DDE7D /* AppDelegate.m */,
 				042B95F9226584FE005DDE7D /* ViewController.h */,
 				042B95FA226584FE005DDE7D /* ViewController.m */,
 				042B95FC226584FE005DDE7D /* Main.storyboard */,
-				042B95FF22658501005DDE7D /* Assets.xcassets */,
 				042B960122658501005DDE7D /* LaunchScreen.storyboard */,
-				042B960422658501005DDE7D /* Info.plist */,
-				042B960522658501005DDE7D /* main.m */,
+				04DF08A72282DCD500246F85 /* SupportingFiles */,
 			);
 			path = iOSAppProject;
+			sourceTree = "<group>";
+		};
+		04DF089B2282DA2F00246F85 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		04DF089C2282DA5300246F85 /* Thanos */ = {
+			isa = PBXGroup;
+			children = (
+				04DF08B72283017E00246F85 /* InfinityGauntlet */,
+				04DF08A12282DBA400246F85 /* FRDModuleManager */,
+				04DF089E2282DA7300246F85 /* FrameWorks */,
+			);
+			path = Thanos;
+			sourceTree = "<group>";
+		};
+		04DF089D2282DA5700246F85 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				04DF08BB2283052F00246F85 /* VendorAppDelegate.h */,
+				04DF08BC2283052F00246F85 /* VendorAppDelegate.m */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		04DF089E2282DA7300246F85 /* FrameWorks */ = {
+			isa = PBXGroup;
+			children = (
+				04DF08B42282FF3E00246F85 /* FMBaseClass.framework */,
+			);
+			path = FrameWorks;
+			sourceTree = "<group>";
+		};
+		04DF08A12282DBA400246F85 /* FRDModuleManager */ = {
+			isa = PBXGroup;
+			children = (
+				04DF08A22282DBA400246F85 /* FRDModuleManager.h */,
+				04DF08A32282DBA400246F85 /* FRDModuleManager.m */,
+				04DF08A42282DBA400246F85 /* ModulesRegister.plist */,
+			);
+			path = FRDModuleManager;
+			sourceTree = "<group>";
+		};
+		04DF08A72282DCD500246F85 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				042B960422658501005DDE7D /* Info.plist */,
+				042B960522658501005DDE7D /* main.m */,
+				042B95FF22658501005DDE7D /* Assets.xcassets */,
+				04DF08A82282DD1300246F85 /* Project-PrefixHeader.pch */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		04DF08B62283013100246F85 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04DF08B72283017E00246F85 /* InfinityGauntlet */ = {
+			isa = PBXGroup;
+			children = (
+				04DF08B8228301D000246F85 /* ThanosAppDelegate.h */,
+				04DF08B9228301D000246F85 /* ThanosAppDelegate.m */,
+			);
+			path = InfinityGauntlet;
+			sourceTree = "<group>";
+		};
+		04DF08BE228305F100246F85 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04DF08C2228308BC00246F85 /* RootViewAppDelegate.h */,
+				04DF08C3228308BC00246F85 /* RootViewAppDelegate.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		04DF08BF2283060E00246F85 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		04DF08C02283062000246F85 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		04DF08C12283063C00246F85 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				042B960322658501005DDE7D /* LaunchScreen.storyboard in Resources */,
+				04DF08A62282DBA400246F85 /* ModulesRegister.plist in Resources */,
 				042B960022658501005DDE7D /* Assets.xcassets in Resources */,
 				042B95FE226584FE005DDE7D /* Main.storyboard in Resources */,
 			);
@@ -142,7 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				042B95FB226584FE005DDE7D /* ViewController.m in Sources */,
+				04DF08C4228308BC00246F85 /* RootViewAppDelegate.m in Sources */,
 				042B960622658501005DDE7D /* main.m in Sources */,
+				04DF08BA228301D000246F85 /* ThanosAppDelegate.m in Sources */,
+				04DF08A52282DBA400246F85 /* FRDModuleManager.m in Sources */,
+				04DF08BD2283052F00246F85 /* VendorAppDelegate.m in Sources */,
 				042B95F8226584FE005DDE7D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,13 +415,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = iOSAppProject/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Thanos/FrameWorks",
+					"$(PROJECT_DIR)/iOSAppProject",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSAppProject/SupportingFiles/Project-PrefixHeader.pch";
+				INFOPLIST_FILE = iOSAppProject/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/Thanos/FrameWorks/FMBaseClass.framework";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MySwiftLern.iOSAppProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -303,13 +442,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = iOSAppProject/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Thanos/FrameWorks",
+					"$(PROJECT_DIR)/iOSAppProject",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSAppProject/SupportingFiles/Project-PrefixHeader.pch";
+				INFOPLIST_FILE = iOSAppProject/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/Thanos/FrameWorks/FMBaseClass.framework";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MySwiftLern.iOSAppProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
