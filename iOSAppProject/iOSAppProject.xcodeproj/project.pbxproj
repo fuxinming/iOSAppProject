@@ -9,16 +9,20 @@
 /* Begin PBXBuildFile section */
 		042B95F8226584FE005DDE7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B95F7226584FE005DDE7D /* AppDelegate.m */; };
 		042B95FB226584FE005DDE7D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B95FA226584FE005DDE7D /* ViewController.m */; };
-		042B95FE226584FE005DDE7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042B95FC226584FE005DDE7D /* Main.storyboard */; };
 		042B960022658501005DDE7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042B95FF22658501005DDE7D /* Assets.xcassets */; };
 		042B960322658501005DDE7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042B960122658501005DDE7D /* LaunchScreen.storyboard */; };
 		042B960622658501005DDE7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B960522658501005DDE7D /* main.m */; };
 		04DF08A52282DBA400246F85 /* FRDModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF08A32282DBA400246F85 /* FRDModuleManager.m */; };
 		04DF08A62282DBA400246F85 /* ModulesRegister.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04DF08A42282DBA400246F85 /* ModulesRegister.plist */; };
-		04DF08B52282FF3E00246F85 /* FMBaseClass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DF08B42282FF3E00246F85 /* FMBaseClass.framework */; };
 		04DF08BA228301D000246F85 /* ThanosAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF08B9228301D000246F85 /* ThanosAppDelegate.m */; };
 		04DF08BD2283052F00246F85 /* VendorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF08BC2283052F00246F85 /* VendorAppDelegate.m */; };
 		04DF08C4228308BC00246F85 /* RootViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF08C3228308BC00246F85 /* RootViewAppDelegate.m */; };
+		04DF08EF2283D50800246F85 /* guidence_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DF08EB2283D50800246F85 /* guidence_01.png */; };
+		04DF08F02283D50800246F85 /* guidence_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DF08EC2283D50800246F85 /* guidence_03.png */; };
+		04DF08F12283D50800246F85 /* guidence_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DF08ED2283D50800246F85 /* guidence_02.png */; };
+		04DF08F22283D50800246F85 /* guidence_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DF08EE2283D50800246F85 /* guidence_btn@2x.png */; };
+		04DF08F8228401EB00246F85 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF08F7228401EB00246F85 /* BaseViewController.m */; };
+		04DF090A22840E4600246F85 /* FMBaseClass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DF090922840E4600246F85 /* FMBaseClass.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +31,6 @@
 		042B95F7226584FE005DDE7D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		042B95F9226584FE005DDE7D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		042B95FA226584FE005DDE7D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		042B95FD226584FE005DDE7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		042B95FF22658501005DDE7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		042B960222658501005DDE7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		042B960422658501005DDE7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,13 +39,19 @@
 		04DF08A32282DBA400246F85 /* FRDModuleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRDModuleManager.m; sourceTree = "<group>"; };
 		04DF08A42282DBA400246F85 /* ModulesRegister.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ModulesRegister.plist; sourceTree = "<group>"; };
 		04DF08A82282DD1300246F85 /* Project-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Project-PrefixHeader.pch"; sourceTree = "<group>"; };
-		04DF08B42282FF3E00246F85 /* FMBaseClass.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FMBaseClass.framework; sourceTree = "<group>"; };
 		04DF08B8228301D000246F85 /* ThanosAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThanosAppDelegate.h; sourceTree = "<group>"; };
 		04DF08B9228301D000246F85 /* ThanosAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThanosAppDelegate.m; sourceTree = "<group>"; };
 		04DF08BB2283052F00246F85 /* VendorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VendorAppDelegate.h; sourceTree = "<group>"; };
 		04DF08BC2283052F00246F85 /* VendorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VendorAppDelegate.m; sourceTree = "<group>"; };
 		04DF08C2228308BC00246F85 /* RootViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewAppDelegate.h; sourceTree = "<group>"; };
 		04DF08C3228308BC00246F85 /* RootViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewAppDelegate.m; sourceTree = "<group>"; };
+		04DF08EB2283D50800246F85 /* guidence_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guidence_01.png; sourceTree = "<group>"; };
+		04DF08EC2283D50800246F85 /* guidence_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guidence_03.png; sourceTree = "<group>"; };
+		04DF08ED2283D50800246F85 /* guidence_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guidence_02.png; sourceTree = "<group>"; };
+		04DF08EE2283D50800246F85 /* guidence_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guidence_btn@2x.png"; sourceTree = "<group>"; };
+		04DF08F6228401EB00246F85 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		04DF08F7228401EB00246F85 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		04DF090922840E4600246F85 /* FMBaseClass.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FMBaseClass.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04DF08B52282FF3E00246F85 /* FMBaseClass.framework in Frameworks */,
+				04DF090A22840E4600246F85 /* FMBaseClass.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +97,6 @@
 				042B95F7226584FE005DDE7D /* AppDelegate.m */,
 				042B95F9226584FE005DDE7D /* ViewController.h */,
 				042B95FA226584FE005DDE7D /* ViewController.m */,
-				042B95FC226584FE005DDE7D /* Main.storyboard */,
 				042B960122658501005DDE7D /* LaunchScreen.storyboard */,
 				04DF08A72282DCD500246F85 /* SupportingFiles */,
 			);
@@ -98,6 +106,7 @@
 		04DF089B2282DA2F00246F85 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				04DF08E92283D50800246F85 /* UIImg */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -124,7 +133,7 @@
 		04DF089E2282DA7300246F85 /* FrameWorks */ = {
 			isa = PBXGroup;
 			children = (
-				04DF08B42282FF3E00246F85 /* FMBaseClass.framework */,
+				04DF090922840E4600246F85 /* FMBaseClass.framework */,
 			);
 			path = FrameWorks;
 			sourceTree = "<group>";
@@ -169,6 +178,7 @@
 		04DF08BE228305F100246F85 /* UIViewController */ = {
 			isa = PBXGroup;
 			children = (
+				04DF08F42284014100246F85 /* Base */,
 				04DF08C2228308BC00246F85 /* RootViewAppDelegate.h */,
 				04DF08C3228308BC00246F85 /* RootViewAppDelegate.m */,
 			);
@@ -178,6 +188,7 @@
 		04DF08BF2283060E00246F85 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				04DF08F32283D9AD00246F85 /* 启动广告页 */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -194,6 +205,49 @@
 			children = (
 			);
 			path = Config;
+			sourceTree = "<group>";
+		};
+		04DF08E92283D50800246F85 /* UIImg */ = {
+			isa = PBXGroup;
+			children = (
+				04DF08EA2283D50800246F85 /* Guidence */,
+			);
+			path = UIImg;
+			sourceTree = "<group>";
+		};
+		04DF08EA2283D50800246F85 /* Guidence */ = {
+			isa = PBXGroup;
+			children = (
+				04DF08EB2283D50800246F85 /* guidence_01.png */,
+				04DF08EC2283D50800246F85 /* guidence_03.png */,
+				04DF08ED2283D50800246F85 /* guidence_02.png */,
+				04DF08EE2283D50800246F85 /* guidence_btn@2x.png */,
+			);
+			path = Guidence;
+			sourceTree = "<group>";
+		};
+		04DF08F32283D9AD00246F85 /* 启动广告页 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "启动广告页";
+			sourceTree = "<group>";
+		};
+		04DF08F42284014100246F85 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				04DF08F52284014D00246F85 /* BaseViewController */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		04DF08F52284014D00246F85 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04DF08F6228401EB00246F85 /* BaseViewController.h */,
+				04DF08F7228401EB00246F85 /* BaseViewController.m */,
+			);
+			path = BaseViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,8 +309,11 @@
 			files = (
 				042B960322658501005DDE7D /* LaunchScreen.storyboard in Resources */,
 				04DF08A62282DBA400246F85 /* ModulesRegister.plist in Resources */,
+				04DF08F12283D50800246F85 /* guidence_02.png in Resources */,
+				04DF08F02283D50800246F85 /* guidence_03.png in Resources */,
+				04DF08EF2283D50800246F85 /* guidence_01.png in Resources */,
 				042B960022658501005DDE7D /* Assets.xcassets in Resources */,
-				042B95FE226584FE005DDE7D /* Main.storyboard in Resources */,
+				04DF08F22283D50800246F85 /* guidence_btn@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				042B95FB226584FE005DDE7D /* ViewController.m in Sources */,
+				04DF08F8228401EB00246F85 /* BaseViewController.m in Sources */,
 				04DF08C4228308BC00246F85 /* RootViewAppDelegate.m in Sources */,
 				042B960622658501005DDE7D /* main.m in Sources */,
 				04DF08BA228301D000246F85 /* ThanosAppDelegate.m in Sources */,
@@ -280,14 +338,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		042B95FC226584FE005DDE7D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				042B95FD226584FE005DDE7D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		042B960122658501005DDE7D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -425,6 +475,7 @@
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSAppProject/SupportingFiles/Project-PrefixHeader.pch";
 				INFOPLIST_FILE = iOSAppProject/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,6 +503,7 @@
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSAppProject/SupportingFiles/Project-PrefixHeader.pch";
 				INFOPLIST_FILE = iOSAppProject/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

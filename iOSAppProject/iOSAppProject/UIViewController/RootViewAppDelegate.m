@@ -7,10 +7,15 @@
 //
 
 #import "RootViewAppDelegate.h"
+#import "AppDelegate.h"
 
 @implementation RootViewAppDelegate
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+   
+    
+    
     //启动页
     [self startRootView];
   
@@ -55,6 +60,20 @@ fetchCompletionHandler:(void (^)(UIBackgroundFetchResult result))completionHandl
 #pragma mark - 初始化主页
 
 -(void) startRootView{
-    
+    WeakSelf(ws);
+    AppDelegate *del = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    UIWindow *rootWindow = del.window;
+    if ([FMGuidenceViewController appFirstLaunch]) {
+        //引导页
+        FMGuidenceViewController *guidenceVC =[[FMGuidenceViewController alloc]initWithImagesName:@[@"guidence_01.png",@"guidence_02.png",@"guidence_03.png"]];
+        guidenceVC.doneBtnImage =[UIImage imageNamed:@"guidence_btn.png"];
+        [guidenceVC setDismiss:^{
+//            [ws initRootViewController];
+        }];
+        rootWindow.rootViewController = guidenceVC;
+        [rootWindow makeKeyAndVisible];
+    }else{
+        
+    }
 }
 @end

@@ -4,13 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/CommonDefine.h</key>
+		<data>
+		IEdTiNTbiE5H33W/+vO/3pWwWB4=
+		</data>
 		<key>Headers/FMBarItem.h</key>
 		<data>
 		P7D84wuzjnGYnh5bgbpZ0tlz7Eg=
 		</data>
 		<key>Headers/FMBaseClass.h</key>
 		<data>
-		FUQJNnzpDRV2r2/56uxbMWnoleI=
+		qa4quSxZtP83aqQnfqW8LUlyBwU=
 		</data>
 		<key>Headers/FMGuidenceViewController.h</key>
 		<data>
@@ -52,13 +56,33 @@
 		<data>
 		/qz4+bmzlKgIt5wNEgA+wJiID/8=
 		</data>
+		<key>Headers/FMUtil.h</key>
+		<data>
+		Za5pVeX3G+wXm0yDP5lpsvQ9lZI=
+		</data>
 		<key>Headers/FMViewController.h</key>
 		<data>
 		Cid/Z/ugaEFfPnMxaFOThsoUZbo=
 		</data>
 		<key>Headers/NSString+Validate.h</key>
 		<data>
-		qUbyQ1qUfcNgoU+3BR9zLlSKSFA=
+		nYO+t3WgB0cFE0Esl0hpjHheMp4=
+		</data>
+		<key>Headers/UIColor+Addtions.h</key>
+		<data>
+		uWnTLFi26DCXhLly0qzaZT/hBnU=
+		</data>
+		<key>Headers/UIFont+Addtions.h</key>
+		<data>
+		KBzMHTpro5g+/jJm8Vq/kbBUetI=
+		</data>
+		<key>Headers/UIImage+Addtions.h</key>
+		<data>
+		bTMtuQgg7heZa9yCt5CwjVRfp1U=
+		</data>
+		<key>Headers/UIView+Addtions.h</key>
+		<data>
+		skuxPGuB+8iro0y0ahfxIyKrNr4=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -71,6 +95,17 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/CommonDefine.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IEdTiNTbiE5H33W/+vO/3pWwWB4=
+			</data>
+			<key>hash2</key>
+			<data>
+			Qz66SnJkjF3DpaofkYeTv7SfCHgCTfiSeKS6my8PFiU=
+			</data>
+		</dict>
 		<key>Headers/FMBarItem.h</key>
 		<dict>
 			<key>hash</key>
@@ -86,11 +121,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FUQJNnzpDRV2r2/56uxbMWnoleI=
+			qa4quSxZtP83aqQnfqW8LUlyBwU=
 			</data>
 			<key>hash2</key>
 			<data>
-			tAXTuMV4WEwW0g8e/l6uyZ6T3svqOLLMz03rwl4ZpCY=
+			Wc7toM71H71Wdeylc8yeHy45vx6YReArSYrXh9p1t2I=
 			</data>
 		</dict>
 		<key>Headers/FMGuidenceViewController.h</key>
@@ -203,6 +238,17 @@
 			RmnqIA4qKwPK9CGHVAU1yLPFu6mhzMo++oZjV2eElQM=
 			</data>
 		</dict>
+		<key>Headers/FMUtil.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Za5pVeX3G+wXm0yDP5lpsvQ9lZI=
+			</data>
+			<key>hash2</key>
+			<data>
+			1ThwegNW2ff+Q4RIwrJO5FQldKKJjrkFSu1eLnZoa+M=
+			</data>
+		</dict>
 		<key>Headers/FMViewController.h</key>
 		<dict>
 			<key>hash</key>
@@ -218,11 +264,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qUbyQ1qUfcNgoU+3BR9zLlSKSFA=
+			nYO+t3WgB0cFE0Esl0hpjHheMp4=
 			</data>
 			<key>hash2</key>
 			<data>
-			hZZGurongWYFQSUDi4oS8kQpfDlUeetVpIyHACvkQJI=
+			zY+efD/mpWjDMesq6IYqWrzbmZSlP+83R5oIqoU++ng=
+			</data>
+		</dict>
+		<key>Headers/UIColor+Addtions.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uWnTLFi26DCXhLly0qzaZT/hBnU=
+			</data>
+			<key>hash2</key>
+			<data>
+			qlpToZHac36179mf79wEREhzxyFkyUEGnAIGP7rdfHc=
+			</data>
+		</dict>
+		<key>Headers/UIFont+Addtions.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KBzMHTpro5g+/jJm8Vq/kbBUetI=
+			</data>
+			<key>hash2</key>
+			<data>
+			CQPFa0SesYfeuBJo1CuaUPB69DyujUThGhKSdxfhK6g=
+			</data>
+		</dict>
+		<key>Headers/UIImage+Addtions.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bTMtuQgg7heZa9yCt5CwjVRfp1U=
+			</data>
+			<key>hash2</key>
+			<data>
+			gHgc3uqtGE9iBT/MSSSbzWYlmvHUnCohrAMA1yELf4k=
+			</data>
+		</dict>
+		<key>Headers/UIView+Addtions.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			skuxPGuB+8iro0y0ahfxIyKrNr4=
+			</data>
+			<key>hash2</key>
+			<data>
+			cFXi+iNfm2HO30WFvwlKaBofNWfJqhDE7FfPKFMFQ1I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
