@@ -31,8 +31,7 @@
 
 #define RootNavPop(_ANIMATE) [(UINavigationController *)Window.rootViewController popViewControllerAnimated:_ANIMATE]
 
-#define yyyyMMddHHmm @"yyyy-MM-dd HH:mm"
-#define yyyyMMdd @"yyyy-MM-dd"
+
 
 
 #define ColorRGBA(r,g,b,a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:a]
@@ -77,6 +76,17 @@
 
 #define RemoveAllNotification()     \
 [[NSNotificationCenter defaultCenter] removeObserver:self]
+
+
+
+
+
+// MARK: -- const string --
+
+#define yyyyMMddHHmmss @"yyyy-MM-dd HH:mm:ss"
+#define yyyyMMddHHmm @"yyyy-MM-dd HH:mm"
+#define yyyyMMdd @"yyyy-MM-dd"
+
 
 
 #endif /* CommonDefine_h */

@@ -21,7 +21,8 @@ FOUNDATION_EXPORT const unsigned char FMBaseClassVersionString[];
 #import <FMBaseClass/UIFont+Addtions.h>
 #import <FMBaseClass/UIColor+Addtions.h>
 #import <FMBaseClass/UIImage+Addtions.h>
-
+#import <FMBaseClass/NSDictionary+Addtions.h>
+#import <FMBaseClass/NSDate+Addtions.h>
 #import <FMBaseClass/FMBarItem.h>
 #import <FMBaseClass/FMTabBarItem.h>
 #import <FMBaseClass/FMNavBarButtonItem.h>

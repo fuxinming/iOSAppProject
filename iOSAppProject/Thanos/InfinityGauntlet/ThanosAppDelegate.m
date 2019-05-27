@@ -11,7 +11,7 @@
 @implementation ThanosAppDelegate
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    NSLog(@"%@ Thanos Timeline", NSStringFromSelector(_cmd));
+    [FMNetWorkManager openLog];
 
     return YES;
 }

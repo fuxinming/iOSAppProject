@@ -12,6 +12,18 @@
 		042B960022658501005DDE7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042B95FF22658501005DDE7D /* Assets.xcassets */; };
 		042B960322658501005DDE7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042B960122658501005DDE7D /* LaunchScreen.storyboard */; };
 		042B960622658501005DDE7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B960522658501005DDE7D /* main.m */; };
+		04373D47229B8C8F003F82BF /* FMBaseClass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04373D46229B8C8F003F82BF /* FMBaseClass.framework */; };
+		0487E5FE2296B99C00916224 /* FMLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0487E5FD2296B99C00916224 /* FMLaunchViewController.m */; };
+		0487E6082296CCD600916224 /* FMLaunchDo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0487E6072296CCD600916224 /* FMLaunchDo.m */; };
+		0487E61522978D5400916224 /* RETableViewCellStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0487E60B22978D5400916224 /* RETableViewCellStyle.m */; };
+		0487E61622978D5400916224 /* RETableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0487E60C22978D5400916224 /* RETableViewItem.m */; };
+		0487E61722978D5400916224 /* RETableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0487E60D22978D5400916224 /* RETableViewCell.m */; };
+		0487E61822978D5400916224 /* RETableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0487E61122978D5400916224 /* RETableViewSection.m */; };
+		0487E61922978D5400916224 /* RETableViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0487E61422978D5400916224 /* RETableViewManager.m */; };
+		0487E62022978E5C00916224 /* FMNetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0487E61C22978E5C00916224 /* FMNetWorkManager.m */; };
+		0487E62122978E5C00916224 /* FMNetWorkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0487E61F22978E5C00916224 /* FMNetWorkCache.m */; };
+		0487E626229790DC00916224 /* NetWorkUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0487E624229790DC00916224 /* NetWorkUtil.m */; };
+		0487E62A2297D3A100916224 /* FMLaunchViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0487E6292297D3A000916224 /* FMLaunchViewModel.m */; };
 		04DF08A52282DBA400246F85 /* FRDModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF08A32282DBA400246F85 /* FRDModuleManager.m */; };
 		04DF08A62282DBA400246F85 /* ModulesRegister.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04DF08A42282DBA400246F85 /* ModulesRegister.plist */; };
 		04DF08BA228301D000246F85 /* ThanosAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF08B9228301D000246F85 /* ThanosAppDelegate.m */; };
@@ -22,7 +34,7 @@
 		04DF08F12283D50800246F85 /* guidence_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DF08ED2283D50800246F85 /* guidence_02.png */; };
 		04DF08F22283D50800246F85 /* guidence_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DF08EE2283D50800246F85 /* guidence_btn@2x.png */; };
 		04DF08F8228401EB00246F85 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF08F7228401EB00246F85 /* BaseViewController.m */; };
-		04DF090A22840E4600246F85 /* FMBaseClass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DF090922840E4600246F85 /* FMBaseClass.framework */; };
+		EA51D0EEDB020AC1038D7280 /* Pods_iOSAppProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B18B0EEF4BD9DDEFC5D027 /* Pods_iOSAppProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +47,32 @@
 		042B960222658501005DDE7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		042B960422658501005DDE7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		042B960522658501005DDE7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04373D46229B8C8F003F82BF /* FMBaseClass.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FMBaseClass.framework; sourceTree = "<group>"; };
+		0487E5FC2296B99C00916224 /* FMLaunchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMLaunchViewController.h; sourceTree = "<group>"; };
+		0487E5FD2296B99C00916224 /* FMLaunchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMLaunchViewController.m; sourceTree = "<group>"; };
+		0487E6062296CCD600916224 /* FMLaunchDo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMLaunchDo.h; sourceTree = "<group>"; };
+		0487E6072296CCD600916224 /* FMLaunchDo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMLaunchDo.m; sourceTree = "<group>"; };
+		0487E60B22978D5400916224 /* RETableViewCellStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RETableViewCellStyle.m; sourceTree = "<group>"; };
+		0487E60C22978D5400916224 /* RETableViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RETableViewItem.m; sourceTree = "<group>"; };
+		0487E60D22978D5400916224 /* RETableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RETableViewCell.m; sourceTree = "<group>"; };
+		0487E60E22978D5400916224 /* RETableViewSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RETableViewSection.h; sourceTree = "<group>"; };
+		0487E60F22978D5400916224 /* RETableViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RETableViewManager.h; sourceTree = "<group>"; };
+		0487E61022978D5400916224 /* RETableViewCellStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RETableViewCellStyle.h; sourceTree = "<group>"; };
+		0487E61122978D5400916224 /* RETableViewSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RETableViewSection.m; sourceTree = "<group>"; };
+		0487E61222978D5400916224 /* RETableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RETableViewCell.h; sourceTree = "<group>"; };
+		0487E61322978D5400916224 /* RETableViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RETableViewItem.h; sourceTree = "<group>"; };
+		0487E61422978D5400916224 /* RETableViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RETableViewManager.m; sourceTree = "<group>"; };
+		0487E61A22978D9F00916224 /* ThanosHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThanosHeader.h; sourceTree = "<group>"; };
+		0487E61C22978E5C00916224 /* FMNetWorkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMNetWorkManager.m; sourceTree = "<group>"; };
+		0487E61D22978E5C00916224 /* FMNetWorkCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMNetWorkCache.h; sourceTree = "<group>"; };
+		0487E61E22978E5C00916224 /* FMNetWorkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMNetWorkManager.h; sourceTree = "<group>"; };
+		0487E61F22978E5C00916224 /* FMNetWorkCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMNetWorkCache.m; sourceTree = "<group>"; };
+		0487E62222978EC700916224 /* VendorHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VendorHeader.h; sourceTree = "<group>"; };
+		0487E624229790DC00916224 /* NetWorkUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkUtil.m; sourceTree = "<group>"; };
+		0487E625229790DC00916224 /* NetWorkUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkUtil.h; sourceTree = "<group>"; };
+		0487E6272297970E00916224 /* AppConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConfig.h; sourceTree = "<group>"; };
+		0487E6282297D3A000916224 /* FMLaunchViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMLaunchViewModel.h; sourceTree = "<group>"; };
+		0487E6292297D3A000916224 /* FMLaunchViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMLaunchViewModel.m; sourceTree = "<group>"; };
 		04DF08A22282DBA400246F85 /* FRDModuleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRDModuleManager.h; sourceTree = "<group>"; };
 		04DF08A32282DBA400246F85 /* FRDModuleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRDModuleManager.m; sourceTree = "<group>"; };
 		04DF08A42282DBA400246F85 /* ModulesRegister.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ModulesRegister.plist; sourceTree = "<group>"; };
@@ -51,7 +89,9 @@
 		04DF08EE2283D50800246F85 /* guidence_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guidence_btn@2x.png"; sourceTree = "<group>"; };
 		04DF08F6228401EB00246F85 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		04DF08F7228401EB00246F85 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		04DF090922840E4600246F85 /* FMBaseClass.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FMBaseClass.framework; sourceTree = "<group>"; };
+		68B18B0EEF4BD9DDEFC5D027 /* Pods_iOSAppProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSAppProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7458AEBC46C62B1B4AF81112 /* Pods-iOSAppProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSAppProject.release.xcconfig"; path = "Target Support Files/Pods-iOSAppProject/Pods-iOSAppProject.release.xcconfig"; sourceTree = "<group>"; };
+		E2A36FF05FA41960FC062860 /* Pods-iOSAppProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSAppProject.debug.xcconfig"; path = "Target Support Files/Pods-iOSAppProject/Pods-iOSAppProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +99,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04DF090A22840E4600246F85 /* FMBaseClass.framework in Frameworks */,
+				EA51D0EEDB020AC1038D7280 /* Pods_iOSAppProject.framework in Frameworks */,
+				04373D47229B8C8F003F82BF /* FMBaseClass.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +115,8 @@
 				04DF089B2282DA2F00246F85 /* Resource */,
 				042B95F5226584FE005DDE7D /* iOSAppProject */,
 				042B95F4226584FE005DDE7D /* Products */,
+				B1AD6BF79C9290D9326635AF /* Pods */,
+				40FCA653665305E0A6A7DB1A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +146,65 @@
 			path = iOSAppProject;
 			sourceTree = "<group>";
 		};
+		0487E6052296CCB400916224 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				0487E6062296CCD600916224 /* FMLaunchDo.h */,
+				0487E6072296CCD600916224 /* FMLaunchDo.m */,
+				0487E6282297D3A000916224 /* FMLaunchViewModel.h */,
+				0487E6292297D3A000916224 /* FMLaunchViewModel.m */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		0487E60A22978D5400916224 /* RETableViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				0487E60B22978D5400916224 /* RETableViewCellStyle.m */,
+				0487E60C22978D5400916224 /* RETableViewItem.m */,
+				0487E60D22978D5400916224 /* RETableViewCell.m */,
+				0487E60E22978D5400916224 /* RETableViewSection.h */,
+				0487E60F22978D5400916224 /* RETableViewManager.h */,
+				0487E61022978D5400916224 /* RETableViewCellStyle.h */,
+				0487E61122978D5400916224 /* RETableViewSection.m */,
+				0487E61222978D5400916224 /* RETableViewCell.h */,
+				0487E61322978D5400916224 /* RETableViewItem.h */,
+				0487E61422978D5400916224 /* RETableViewManager.m */,
+			);
+			path = RETableViewManager;
+			sourceTree = "<group>";
+		};
+		0487E61B22978E5C00916224 /* NetWorkManager */ = {
+			isa = PBXGroup;
+			children = (
+				0487E61D22978E5C00916224 /* FMNetWorkCache.h */,
+				0487E61F22978E5C00916224 /* FMNetWorkCache.m */,
+				0487E61E22978E5C00916224 /* FMNetWorkManager.h */,
+				0487E61C22978E5C00916224 /* FMNetWorkManager.m */,
+			);
+			path = NetWorkManager;
+			sourceTree = "<group>";
+		};
+		0487E623229790DC00916224 /* NetWorkUtil */ = {
+			isa = PBXGroup;
+			children = (
+				0487E625229790DC00916224 /* NetWorkUtil.h */,
+				0487E624229790DC00916224 /* NetWorkUtil.m */,
+			);
+			path = NetWorkUtil;
+			sourceTree = "<group>";
+		};
+		0487E62B2297D49A00916224 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
 		04DF089B2282DA2F00246F85 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				0487E62B2297D49A00916224 /* Json */,
 				04DF08E92283D50800246F85 /* UIImg */,
 			);
 			path = Resource;
@@ -126,6 +225,7 @@
 			children = (
 				04DF08BB2283052F00246F85 /* VendorAppDelegate.h */,
 				04DF08BC2283052F00246F85 /* VendorAppDelegate.m */,
+				0487E62222978EC700916224 /* VendorHeader.h */,
 			);
 			path = Vendor;
 			sourceTree = "<group>";
@@ -133,7 +233,7 @@
 		04DF089E2282DA7300246F85 /* FrameWorks */ = {
 			isa = PBXGroup;
 			children = (
-				04DF090922840E4600246F85 /* FMBaseClass.framework */,
+				04373D46229B8C8F003F82BF /* FMBaseClass.framework */,
 			);
 			path = FrameWorks;
 			sourceTree = "<group>";
@@ -169,6 +269,9 @@
 		04DF08B72283017E00246F85 /* InfinityGauntlet */ = {
 			isa = PBXGroup;
 			children = (
+				0487E61A22978D9F00916224 /* ThanosHeader.h */,
+				0487E60A22978D5400916224 /* RETableViewManager */,
+				0487E61B22978E5C00916224 /* NetWorkManager */,
 				04DF08B8228301D000246F85 /* ThanosAppDelegate.h */,
 				04DF08B9228301D000246F85 /* ThanosAppDelegate.m */,
 			);
@@ -196,6 +299,7 @@
 		04DF08C02283062000246F85 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				0487E623229790DC00916224 /* NetWorkUtil */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -203,6 +307,7 @@
 		04DF08C12283063C00246F85 /* Config */ = {
 			isa = PBXGroup;
 			children = (
+				0487E6272297970E00916224 /* AppConfig.h */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -229,6 +334,9 @@
 		04DF08F32283D9AD00246F85 /* 启动广告页 */ = {
 			isa = PBXGroup;
 			children = (
+				0487E6052296CCB400916224 /* VM */,
+				0487E5FC2296B99C00916224 /* FMLaunchViewController.h */,
+				0487E5FD2296B99C00916224 /* FMLaunchViewController.m */,
 			);
 			path = "启动广告页";
 			sourceTree = "<group>";
@@ -250,6 +358,23 @@
 			path = BaseViewController;
 			sourceTree = "<group>";
 		};
+		40FCA653665305E0A6A7DB1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68B18B0EEF4BD9DDEFC5D027 /* Pods_iOSAppProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1AD6BF79C9290D9326635AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2A36FF05FA41960FC062860 /* Pods-iOSAppProject.debug.xcconfig */,
+				7458AEBC46C62B1B4AF81112 /* Pods-iOSAppProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -257,9 +382,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 042B960922658501005DDE7D /* Build configuration list for PBXNativeTarget "iOSAppProject" */;
 			buildPhases = (
+				A724A8F333200F4E88C1C636 /* [CP] Check Pods Manifest.lock */,
 				042B95EF226584FE005DDE7D /* Sources */,
 				042B95F0226584FE005DDE7D /* Frameworks */,
 				042B95F1226584FE005DDE7D /* Resources */,
+				110B1D8808DB8C9F1702A416 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -319,17 +446,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		110B1D8808DB8C9F1702A416 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSAppProject/Pods-iOSAppProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSAppProject/Pods-iOSAppProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A724A8F333200F4E88C1C636 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSAppProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		042B95EF226584FE005DDE7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0487E6082296CCD600916224 /* FMLaunchDo.m in Sources */,
+				0487E61522978D5400916224 /* RETableViewCellStyle.m in Sources */,
+				0487E626229790DC00916224 /* NetWorkUtil.m in Sources */,
 				042B95FB226584FE005DDE7D /* ViewController.m in Sources */,
 				04DF08F8228401EB00246F85 /* BaseViewController.m in Sources */,
+				0487E61822978D5400916224 /* RETableViewSection.m in Sources */,
+				0487E62022978E5C00916224 /* FMNetWorkManager.m in Sources */,
+				0487E62122978E5C00916224 /* FMNetWorkCache.m in Sources */,
+				0487E61722978D5400916224 /* RETableViewCell.m in Sources */,
 				04DF08C4228308BC00246F85 /* RootViewAppDelegate.m in Sources */,
+				0487E61622978D5400916224 /* RETableViewItem.m in Sources */,
 				042B960622658501005DDE7D /* main.m in Sources */,
+				0487E61922978D5400916224 /* RETableViewManager.m in Sources */,
 				04DF08BA228301D000246F85 /* ThanosAppDelegate.m in Sources */,
 				04DF08A52282DBA400246F85 /* FRDModuleManager.m in Sources */,
+				0487E62A2297D3A100916224 /* FMLaunchViewModel.m in Sources */,
+				0487E5FE2296B99C00916224 /* FMLaunchViewController.m in Sources */,
 				04DF08BD2283052F00246F85 /* VendorAppDelegate.m in Sources */,
 				042B95F8226584FE005DDE7D /* AppDelegate.m in Sources */,
 			);
@@ -463,11 +652,14 @@
 		};
 		042B960A22658501005DDE7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2A36FF05FA41960FC062860 /* Pods-iOSAppProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T47AK75QXW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Thanos/FrameWorks",
@@ -481,21 +673,27 @@
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/Thanos/FrameWorks/FMBaseClass.framework";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.MySwiftLern.iOSAppProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		042B960B22658501005DDE7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7458AEBC46C62B1B4AF81112 /* Pods-iOSAppProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T47AK75QXW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Thanos/FrameWorks",
@@ -509,11 +707,14 @@
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/Thanos/FrameWorks/FMBaseClass.framework";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.MySwiftLern.iOSAppProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

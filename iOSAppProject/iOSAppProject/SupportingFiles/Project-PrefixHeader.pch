@@ -14,5 +14,7 @@
 
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
-#import <FMBaseClass/FMBaseClass.h>
+#import "VendorHeader.h"
+#import "ThanosHeader.h"
+#import "AppConfig.h"
 #endif /* Project_PrefixHeader_pch */

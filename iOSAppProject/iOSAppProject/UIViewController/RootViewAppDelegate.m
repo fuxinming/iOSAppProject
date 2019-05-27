@@ -8,7 +8,7 @@
 
 #import "RootViewAppDelegate.h"
 #import "AppDelegate.h"
-
+#import "FMLaunchViewController.h"
 @implementation RootViewAppDelegate
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -73,7 +73,8 @@ fetchCompletionHandler:(void (^)(UIBackgroundFetchResult result))completionHandl
         rootWindow.rootViewController = guidenceVC;
         [rootWindow makeKeyAndVisible];
     }else{
-        
+        FMLaunchViewController * launchVC = [[FMLaunchViewController alloc] init];
+        rootWindow.rootViewController = launchVC;
     }
 }
 @end
