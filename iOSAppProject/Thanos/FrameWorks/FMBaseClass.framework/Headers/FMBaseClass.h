@@ -37,4 +37,8 @@ FOUNDATION_EXPORT const unsigned char FMBaseClassVersionString[];
 #import <FMBaseClass/CommonDefine.h>
 #import <FMBaseClass/FMUtil.h>
 
+#import <FMBaseClass/FBKVOController.h>
+#import <FMBaseClass/NSObject+FBKVOController.h>
+
+
 

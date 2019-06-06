@@ -10,6 +10,7 @@
 #define VendorHeader_h
 
 #import "YYKit.h"
+#import "MJRefresh.h"
 #import <FMBaseClass/FMBaseClass.h>
 #import <SDWebImage/SDWebImage.h>
 #endif /* VendorHeader_h */

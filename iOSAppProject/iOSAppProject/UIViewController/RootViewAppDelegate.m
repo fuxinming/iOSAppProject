@@ -9,6 +9,7 @@
 #import "RootViewAppDelegate.h"
 #import "AppDelegate.h"
 #import "FMLaunchViewController.h"
+#import "RootTabBarViewController.h"
 @implementation RootViewAppDelegate
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -68,13 +69,32 @@ fetchCompletionHandler:(void (^)(UIBackgroundFetchResult result))completionHandl
         FMGuidenceViewController *guidenceVC =[[FMGuidenceViewController alloc]initWithImagesName:@[@"guidence_01.png",@"guidence_02.png",@"guidence_03.png"]];
         guidenceVC.doneBtnImage =[UIImage imageNamed:@"guidence_btn.png"];
         [guidenceVC setDismiss:^{
-//            [ws initRootViewController];
+            [ws initRootViewController];
         }];
         rootWindow.rootViewController = guidenceVC;
         [rootWindow makeKeyAndVisible];
     }else{
         FMLaunchViewController * launchVC = [[FMLaunchViewController alloc] init];
+        launchVC.launchDismissed = ^(NSDictionary *param) {
+            [ws initRootViewController];
+        };
         rootWindow.rootViewController = launchVC;
     }
+}
+
+
+-(void)initRootViewController{
+    
+    //如果不需要侧边栏效果，则不需要使用PCSideBarController!!!
+    
+    RootTabBarViewController *tabBarController =[[RootTabBarViewController alloc]init];
+    
+    UINavigationController *rootNav =[[UINavigationController alloc]initWithRootViewController:tabBarController];
+    rootNav.navigationBarHidden = YES;
+    
+    AppDelegate *appdele =(AppDelegate *)[UIApplication sharedApplication].delegate;
+    UIWindow *rootWindow = appdele.window;
+    rootWindow.rootViewController =rootNav;
+    [rootWindow makeKeyAndVisible];
 }
 @end

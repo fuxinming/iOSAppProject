@@ -74,9 +74,11 @@
 
 
 
-#pragma mark - # Event Response
+#pragma mark - # Event Responsei
 - (void)skipBtnTouchUpInside:(UIButton *)sender {
-    
+    if (self.launchDismissed) {
+        self.launchDismissed(nil);
+    }
 }
 
 
