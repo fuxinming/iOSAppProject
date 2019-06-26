@@ -44,6 +44,11 @@
 		0441010F22A64A3200390A98 /* LifeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0441010E22A64A3200390A98 /* LifeViewController.m */; };
 		0441011222A64A3F00390A98 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0441011122A64A3F00390A98 /* MineViewController.m */; };
 		0441012622A6560100390A98 /* FMBaseClass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0441012522A6560100390A98 /* FMBaseClass.framework */; };
+		046FF9B522C0CB54003E26D4 /* MainPageHeadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 046FF9B422C0CB54003E26D4 /* MainPageHeadCell.m */; };
+		046FF9B922C0CE26003E26D4 /* FMScrollGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 046FF9B822C0CE26003E26D4 /* FMScrollGridView.m */; };
+		046FF9BC22C0CEBB003E26D4 /* FMScrollGridItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 046FF9BB22C0CEBB003E26D4 /* FMScrollGridItem.m */; };
+		046FF9BF22C1AC02003E26D4 /* FMScrollGridItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 046FF9BE22C1AC02003E26D4 /* FMScrollGridItemView.m */; };
+		046FF9C222C1B03F003E26D4 /* GridMenuDo.m in Sources */ = {isa = PBXBuildFile; fileRef = 046FF9C122C1B03F003E26D4 /* GridMenuDo.m */; };
 		0487E5FE2296B99C00916224 /* FMLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0487E5FD2296B99C00916224 /* FMLaunchViewController.m */; };
 		0487E6082296CCD600916224 /* FMLaunchDo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0487E6072296CCD600916224 /* FMLaunchDo.m */; };
 		0487E61522978D5400916224 /* RETableViewCellStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0487E60B22978D5400916224 /* RETableViewCellStyle.m */; };
@@ -139,6 +144,16 @@
 		0441011022A64A3F00390A98 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
 		0441011122A64A3F00390A98 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 		0441012522A6560100390A98 /* FMBaseClass.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FMBaseClass.framework; sourceTree = "<group>"; };
+		046FF9B322C0CB54003E26D4 /* MainPageHeadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPageHeadCell.h; sourceTree = "<group>"; };
+		046FF9B422C0CB54003E26D4 /* MainPageHeadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPageHeadCell.m; sourceTree = "<group>"; };
+		046FF9B722C0CE26003E26D4 /* FMScrollGridView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMScrollGridView.h; sourceTree = "<group>"; };
+		046FF9B822C0CE26003E26D4 /* FMScrollGridView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMScrollGridView.m; sourceTree = "<group>"; };
+		046FF9BA22C0CEBB003E26D4 /* FMScrollGridItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMScrollGridItem.h; sourceTree = "<group>"; };
+		046FF9BB22C0CEBB003E26D4 /* FMScrollGridItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMScrollGridItem.m; sourceTree = "<group>"; };
+		046FF9BD22C1AC02003E26D4 /* FMScrollGridItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMScrollGridItemView.h; sourceTree = "<group>"; };
+		046FF9BE22C1AC02003E26D4 /* FMScrollGridItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMScrollGridItemView.m; sourceTree = "<group>"; };
+		046FF9C022C1B03F003E26D4 /* GridMenuDo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GridMenuDo.h; sourceTree = "<group>"; };
+		046FF9C122C1B03F003E26D4 /* GridMenuDo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GridMenuDo.m; sourceTree = "<group>"; };
 		0487E5FC2296B99C00916224 /* FMLaunchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMLaunchViewController.h; sourceTree = "<group>"; };
 		0487E5FD2296B99C00916224 /* FMLaunchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMLaunchViewController.m; sourceTree = "<group>"; };
 		0487E6062296CCD600916224 /* FMLaunchDo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMLaunchDo.h; sourceTree = "<group>"; };
@@ -379,6 +394,8 @@
 		044100FF22A6492500390A98 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				046FF9B122C0CB2E003E26D4 /* Cells */,
+				046FF9B022C0C5A6003E26D4 /* VM */,
 				0441010422A649F600390A98 /* MainViewController.h */,
 				0441010522A649F600390A98 /* MainViewController.m */,
 			);
@@ -419,6 +436,45 @@
 				0441011122A64A3F00390A98 /* MineViewController.m */,
 			);
 			path = Mine;
+			sourceTree = "<group>";
+		};
+		046FF9B022C0C5A6003E26D4 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				046FF9C022C1B03F003E26D4 /* GridMenuDo.h */,
+				046FF9C122C1B03F003E26D4 /* GridMenuDo.m */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		046FF9B122C0CB2E003E26D4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				046FF9B222C0CB54003E26D4 /* 首页头部 */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		046FF9B222C0CB54003E26D4 /* 首页头部 */ = {
+			isa = PBXGroup;
+			children = (
+				046FF9B322C0CB54003E26D4 /* MainPageHeadCell.h */,
+				046FF9B422C0CB54003E26D4 /* MainPageHeadCell.m */,
+			);
+			path = "首页头部";
+			sourceTree = "<group>";
+		};
+		046FF9B622C0CD2D003E26D4 /* FMScrollGridView */ = {
+			isa = PBXGroup;
+			children = (
+				046FF9B722C0CE26003E26D4 /* FMScrollGridView.h */,
+				046FF9B822C0CE26003E26D4 /* FMScrollGridView.m */,
+				046FF9BA22C0CEBB003E26D4 /* FMScrollGridItem.h */,
+				046FF9BB22C0CEBB003E26D4 /* FMScrollGridItem.m */,
+				046FF9BD22C1AC02003E26D4 /* FMScrollGridItemView.h */,
+				046FF9BE22C1AC02003E26D4 /* FMScrollGridItemView.m */,
+			);
+			path = FMScrollGridView;
 			sourceTree = "<group>";
 		};
 		0487E6052296CCB400916224 /* VM */ = {
@@ -498,6 +554,7 @@
 		04DF089D2282DA5700246F85 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				046FF9B622C0CD2D003E26D4 /* FMScrollGridView */,
 				044100B622A623FC00390A98 /* MJRefresh */,
 				04DF08BB2283052F00246F85 /* VendorAppDelegate.h */,
 				04DF08BC2283052F00246F85 /* VendorAppDelegate.m */,
@@ -546,10 +603,10 @@
 			isa = PBXGroup;
 			children = (
 				0487E61A22978D9F00916224 /* ThanosHeader.h */,
-				0487E60A22978D5400916224 /* RETableViewManager */,
-				0487E61B22978E5C00916224 /* NetWorkManager */,
 				04DF08B8228301D000246F85 /* ThanosAppDelegate.h */,
 				04DF08B9228301D000246F85 /* ThanosAppDelegate.m */,
+				0487E60A22978D5400916224 /* RETableViewManager */,
+				0487E61B22978E5C00916224 /* NetWorkManager */,
 			);
 			path = InfinityGauntlet;
 			sourceTree = "<group>";
@@ -785,9 +842,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0487E6082296CCD600916224 /* FMLaunchDo.m in Sources */,
+				046FF9B522C0CB54003E26D4 /* MainPageHeadCell.m in Sources */,
 				044100FB22A623FD00390A98 /* MJRefreshAutoFooter.m in Sources */,
 				044100F322A623FD00390A98 /* MJRefreshAutoGifFooter.m in Sources */,
 				0487E61522978D5400916224 /* RETableViewCellStyle.m in Sources */,
+				046FF9C222C1B03F003E26D4 /* GridMenuDo.m in Sources */,
 				0487E626229790DC00916224 /* NetWorkUtil.m in Sources */,
 				044100EE22A623FD00390A98 /* UIView+MJExtension.m in Sources */,
 				044100F222A623FD00390A98 /* MJRefreshAutoStateFooter.m in Sources */,
@@ -804,9 +863,11 @@
 				044100EF22A623FD00390A98 /* MJRefreshBackGifFooter.m in Sources */,
 				044100B222A6236D00390A98 /* EmptyCell.m in Sources */,
 				0441010F22A64A3200390A98 /* LifeViewController.m in Sources */,
+				046FF9B922C0CE26003E26D4 /* FMScrollGridView.m in Sources */,
 				044100ED22A623FD00390A98 /* NSBundle+MJRefresh.m in Sources */,
 				0441010C22A64A2400390A98 /* CreditCardViewController.m in Sources */,
 				0487E61722978D5400916224 /* RETableViewCell.m in Sources */,
+				046FF9BF22C1AC02003E26D4 /* FMScrollGridItemView.m in Sources */,
 				044100F722A623FD00390A98 /* MJRefreshGifHeader.m in Sources */,
 				04DF08C4228308BC00246F85 /* RootViewAppDelegate.m in Sources */,
 				0487E61622978D5400916224 /* RETableViewItem.m in Sources */,
@@ -814,6 +875,7 @@
 				0441010622A649F600390A98 /* MainViewController.m in Sources */,
 				044100EC22A623FD00390A98 /* UIScrollView+MJExtension.m in Sources */,
 				0487E61922978D5400916224 /* RETableViewManager.m in Sources */,
+				046FF9BC22C0CEBB003E26D4 /* FMScrollGridItem.m in Sources */,
 				04DF08BA228301D000246F85 /* ThanosAppDelegate.m in Sources */,
 				044100F422A623FD00390A98 /* MJRefreshAutoNormalFooter.m in Sources */,
 				044100B422A6236D00390A98 /* BaseTableView.m in Sources */,
@@ -969,7 +1031,7 @@
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T47AK75QXW;
+				DEVELOPMENT_TEAM = U876ZPBHTU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Thanos/FrameWorks",
@@ -987,7 +1049,7 @@
 					"-ObjC",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.MySwiftLern.iOSAppProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fuxinming.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1003,7 +1065,7 @@
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T47AK75QXW;
+				DEVELOPMENT_TEAM = U876ZPBHTU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Thanos/FrameWorks",
@@ -1021,7 +1083,7 @@
 					"-ObjC",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.MySwiftLern.iOSAppProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fuxinming.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;

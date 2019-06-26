@@ -13,7 +13,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = ColorHex(0xf9f9f9);
 
-    
+    [self initNavigatBarButton];
 }
 
 
@@ -34,10 +34,16 @@
     [super initNavigationBar];
     
     FMBarItem *titleBarItem = [[FMBarItem alloc] init];
-    titleBarItem.titleColor = [UIColor whiteColor];
+    titleBarItem.titleColor = [UIColor blackColor];
+    titleBarItem.font = [UIFont fontWithName:@"PingFangSC-Regular" size:17];
+    
     self.navigationBar.titleItem = titleBarItem;
     
-    self.navigationBar.backgroundImage = [UIImage imageNamed:@"导航栏头部背景"];
+    self.navigationBar.backgroundImage = nil;
+    self.navigationBar.backgroundColor = [UIColor whiteColor];
+    
+    self.navigationBar.separatorHeight = 0.5;
+    self.navigationBar.separatorColor =[UIColor RGBCOLOR:224 g:224 b:224 a:0.6];
 }
 
 #pragma mark -定制导航条左右按钮
@@ -67,6 +73,8 @@
         
         FMNavBarButtonItem *rightBarButtonItem = [[FMNavBarButtonItem alloc]  initWithCustomView:rightBarView];
         self.navigationBar.rightBarButtonItem = rightBarButtonItem;
+        
+        
     }
     
     
